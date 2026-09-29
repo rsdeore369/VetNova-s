@@ -1,0 +1,29 @@
+Care Bridge source snapshot — 2026-05-18
+=========================================
+
+Included (15 files):
+  package.json
+  package-lock.json
+  server.js
+  local-chat.js
+  .env.example
+  .gitignore
+  public/index.html
+  public/app.js
+  public/screens.js
+  public/symptoms.json
+  public/locales.json
+  public/styles.css
+  public/styles-premium.css
+  PROJECT_ANALYSIS.md
+  MANIFEST.txt
+
+Excluded:
+  node_modules/
+  .env (secrets)
+  logo assets if not in public/ at snapshot time
+
+Quick start:
+  npm install
+  copy .env.example .env
+  npm start

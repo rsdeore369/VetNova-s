@@ -1,0 +1,169 @@
+{
+  "videos": [
+    {
+      "youtubeId": "VBmMUl37TXo",
+      "category": "poultry",
+      "icon": "🐔",
+      "title": {
+        "en": "Backyard poultry — health & biosecurity",
+        "hi": "पिछवाड़े की मुर्गी — स्वास्थ्य और जैव सुरक्षा",
+        "mr": "पोल्ट्री — आरोग्य आणि जैवसुरक्षा"
+      },
+      "summary": {
+        "en": "Keeping flocks healthy and reducing disease spread.",
+        "hi": "झुंड को स्वस्थ रखना और बीमारी फैलने से बचाव।",
+        "mr": "कळी निरोगी ठेवणे आणि रोग प्रसार कमी करणे."
+      }
+    },
+    {
+      "youtubeId": "VBmMUl37TXo",
+      "category": "poultry",
+      "icon": "🥚",
+      "title": {
+        "en": "Chicken care — coop hygiene tips",
+        "hi": "मुर्गी देखभाल — कोप स्वच्छता",
+        "mr": "कोंबडी काळजी — कोप स्वच्छता"
+      },
+      "summary": {
+        "en": "Daily checks for healthy laying hens.",
+        "hi": "स्वस्थ मुर्गियों के लिए रोज़ की जाँच।",
+        "mr": "निरोगी कोंबड्यांसाठी दैनिक तपासणी."
+      }
+    },
+    {
+      "youtubeId": "xh8S6-FpHsk",
+      "category": "dairy",
+      "icon": "🐄",
+      "title": {
+        "en": "Observing cattle health on the farm",
+        "hi": "फार्म पर गायों के स्वास्थ्य का निरीक्षण",
+        "mr": "शेतात गायींचे आरोग्य निरीक्षण"
+      },
+      "summary": {
+        "en": "Early signs that a cow may need veterinary attention.",
+        "hi": "शुरुआती संकेत जब गाय को डॉक्टर की ज़रूरत हो।",
+        "mr": "गायीला पशुवैद्याची गरज लवकर ओळखणे."
+      }
+    },
+    {
+      "youtubeId": "Y7TwlUcMPkM",
+      "category": "dairy",
+      "icon": "🥛",
+      "title": {
+        "en": "Mastitis prevention in dairy animals",
+        "hi": "दुधारू पशुओं में मास्टाइटिस से बचाव",
+        "mr": "दुधारू प्राण्यांमध्ये मास्टायटिस प्रतिबंध"
+      },
+      "summary": {
+        "en": "Udder hygiene and milking practices.",
+        "hi": "थन की स्वच्छता और दुहाई की आदतें।",
+        "mr": "कासे स्वच्छता आणि दुहाई पद्धती."
+      }
+    },
+    {
+      "youtubeId": "0v4w6k7Y0f4",
+      "category": "dairy",
+      "icon": "🌾",
+      "title": {
+        "en": "Calf health — first weeks on farm",
+        "hi": "बछड़े का स्वास्थ्य — पहले हफ्ते",
+        "mr": "वासरू आरोग्य — पहिले आठवडे"
+      },
+      "summary": {
+        "en": "Colostrum, warmth, and scours prevention.",
+        "hi": "खीस, गर्मी और दस्त से बचाव।",
+        "mr": "कोलोस्ट्रम, उबदारपणा, जुलाब प्रतिबंध."
+      }
+    },
+    {
+      "youtubeId": "8gvzaVj0J8k",
+      "category": "pets",
+      "icon": "🐕",
+      "title": {
+        "en": "Pet first aid — what owners should know",
+        "hi": "पालतू पशु प्राथमिक चिकित्सा",
+        "mr": "पाळीव प्राण्यांची प्राथमिक उपचार माहिती"
+      },
+      "summary": {
+        "en": "Basic steps before you reach the clinic.",
+        "hi": "क्लिनिक पहुँचने से पहले बुनियादी कदम।",
+        "mr": "क्लिनिकपर्यंत पोहोचण्यापूर्वीची पावले."
+      }
+    },
+    {
+      "youtubeId": "iUtnZpz2Gug",
+      "category": "pets",
+      "icon": "🐈",
+      "title": {
+        "en": "Pet vaccination & parasite basics",
+        "hi": "पालतू टीके और परजीवी की जानकारी",
+        "mr": "पाळीव लसी आणि परजीवी माहिती"
+      },
+      "summary": {
+        "en": "Core vaccines and flea/tick prevention.",
+        "hi": "मुख्य टीके और कीड़े से बचाव।",
+        "mr": "मुख्य लसी आणि परजीवी प्रतिबंध."
+      }
+    },
+    {
+      "youtubeId": "z7ZLqs7f8qM",
+      "category": "farm",
+      "icon": "🐐",
+      "title": {
+        "en": "Goat health & herd management",
+        "hi": "बकरी स्वास्थ्य और झुंड प्रबंधन",
+        "mr": "शेळी आरोग्य आणि कळी व्यवस्थापन"
+      },
+      "summary": {
+        "en": "Nutrition, housing, and common illnesses.",
+        "hi": "पोषण, आवास और आम बीमारियाँ।",
+        "mr": "पोषण, निवास आणि सामान्य आजार."
+      }
+    },
+    {
+      "youtubeId": "W86cTIoMv2U",
+      "category": "farm",
+      "icon": "🐑",
+      "title": {
+        "en": "Small ruminant feeding guide",
+        "hi": "छोटे पशु — चारा और पोषण",
+        "mr": "लहान शेयनू — चारा आणि पोषण"
+      },
+      "summary": {
+        "en": "Feed quality for goats and sheep.",
+        "hi": "बकरी-भेड़ के लिए अच्छा चारा।",
+        "mr": "शेळी-मेंढीसाठी चांगला चारा."
+      }
+    },
+    {
+      "youtubeId": "kOHX9lq8o2w",
+      "category": "general",
+      "icon": "💉",
+      "title": {
+        "en": "Vaccination basics for livestock",
+        "hi": "पशुधन के लिए टीकाकरण की बुनियाद",
+        "mr": "पशुधनासाठी लसीकरण मूलभूत माहिती"
+      },
+      "summary": {
+        "en": "Why schedules matter and how to work with your vet.",
+        "hi": "समय-सारणी क्यों ज़रूरी है और वेट के साथ काम कैसे करें।",
+        "mr": "वेळापत्रक महत्त्व आणि पशुवैद्याशी समन्वय."
+      }
+    },
+    {
+      "youtubeId": "3t6X0Hhr0nY",
+      "category": "general",
+      "icon": "🩺",
+      "title": {
+        "en": "Farm biosecurity essentials",
+        "hi": "फार्म जैव सुरक्षा — ज़रूरी बातें",
+        "mr": "शेत जैवसुरक्षा — मूलभूत गोष्टी"
+      },
+      "summary": {
+        "en": "Limit disease spread between animals and farms.",
+        "hi": "पशुओं और फार्म के बीच बीमारी रोकें।",
+        "mr": "प्राणी आणि शेतांमध्ये रोग रोखा."
+      }
+    }
+  ]
+}

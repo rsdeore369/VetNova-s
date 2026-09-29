@@ -1,0 +1,156 @@
+{
+  "CATEGORIES": {
+    "dairy": {
+      "icon": "🐄",
+      "animals": [
+        { "k": "cow", "n": { "en": "Cow", "hi": "गाय", "mr": "गाय" }, "e": "🐄" },
+        { "k": "buffalo", "n": { "en": "Buffalo", "hi": "भैंस", "mr": "म्हैस" }, "e": "🐃" }
+      ]
+    },
+    "farm": {
+      "icon": "🐐",
+      "animals": [
+        { "k": "goat", "n": { "en": "Goat", "hi": "बकरी", "mr": "शेळी" }, "e": "🐐" },
+        { "k": "sheep", "n": { "en": "Sheep", "hi": "भेड़", "mr": "मेंढी" }, "e": "🐑" },
+        { "k": "horse", "n": { "en": "Horse", "hi": "घोड़ा", "mr": "घोडा" }, "e": "🐎" }
+      ]
+    },
+    "pets": {
+      "icon": "🐕",
+      "animals": [
+        { "k": "dog", "n": { "en": "Dog", "hi": "कुत्ता", "mr": "कुत्रा" }, "e": "🐕" },
+        { "k": "cat", "n": { "en": "Cat", "hi": "बिल्ली", "mr": "मांजर" }, "e": "🐈" },
+        { "k": "rabbit", "n": { "en": "Rabbit", "hi": "खरगोश", "mr": "ससा" }, "e": "🐰" }
+      ]
+    },
+    "poultry": {
+      "icon": "🐔",
+      "animals": [
+        { "k": "chicken", "n": { "en": "Chicken", "hi": "मुर्गी", "mr": "कोंबडी" }, "e": "🐔" },
+        { "k": "duck", "n": { "en": "Duck", "hi": "बत्तख", "mr": "बदक" }, "e": "🦆" }
+      ]
+    }
+  },
+  "COMMON_SYMPTOMS": {
+    "cow": [
+      { "k": "fever", "n": { "en": "Fever", "hi": "बुखार", "mr": "ताप" }, "e": "🌡️" },
+      { "k": "not_eating", "n": { "en": "Not eating", "hi": "खाना नहीं खा रहा", "mr": "खात नाही" }, "e": "🍽️" },
+      { "k": "reduced_milk", "n": { "en": "Reduced milk", "hi": "दूध कम", "mr": "दूध कमी" }, "e": "🥛" },
+      { "k": "diarrhea", "n": { "en": "Diarrhea", "hi": "दस्त", "mr": "जुलाब" }, "e": "💩" },
+      { "k": "limping", "n": { "en": "Limping", "hi": "लंगड़ाना", "mr": "लंगडत चालणे" }, "e": "🦵" },
+      { "k": "cough", "n": { "en": "Coughing", "hi": "खांसी", "mr": "खोकला" }, "e": "😷" },
+      { "k": "bloating", "n": { "en": "Bloating", "hi": "पेट फूलना", "mr": "पोट फुगणे" }, "e": "🎈" },
+      { "k": "nasal_discharge", "n": { "en": "Nasal discharge", "hi": "नाक बहना", "mr": "नाकातून स्त्राव" }, "e": "🤧" },
+      { "k": "weakness", "n": { "en": "Weakness", "hi": "कमज़ोरी", "mr": "अशक्तपणा" }, "e": "😮‍💨" },
+      { "k": "skin_lesions", "n": { "en": "Skin lesions", "hi": "त्वचा पर घाव", "mr": "त्वचेवर जखमा" }, "e": "🩹" },
+      { "k": "weight_loss", "n": { "en": "Weight loss", "hi": "वज़न कम", "mr": "वजन कमी" }, "e": "⚖️" },
+      { "k": "swollen_udder", "n": { "en": "Swollen udder", "hi": "थन सूजन", "mr": "कासे सुजले" }, "e": "🫃" }
+    ],
+    "buffalo": [
+      { "k": "fever", "n": { "en": "Fever", "hi": "बुखार", "mr": "ताप" }, "e": "🌡️" },
+      { "k": "not_eating", "n": { "en": "Not eating", "hi": "खाना नहीं खा रहा", "mr": "खात नाही" }, "e": "🍽️" },
+      { "k": "reduced_milk", "n": { "en": "Reduced milk", "hi": "दूध कम", "mr": "दूध कमी" }, "e": "🥛" },
+      { "k": "diarrhea", "n": { "en": "Diarrhea", "hi": "दस्त", "mr": "जुलाब" }, "e": "💩" },
+      { "k": "bloating", "n": { "en": "Bloating", "hi": "पेट फूलना", "mr": "पोट फुगणे" }, "e": "🎈" },
+      { "k": "limping", "n": { "en": "Limping", "hi": "लंगड़ाना", "mr": "लंगडत चालणे" }, "e": "🦵" },
+      { "k": "cough", "n": { "en": "Coughing", "hi": "खांसी", "mr": "खोकला" }, "e": "😷" },
+      { "k": "weakness", "n": { "en": "Weakness", "hi": "कमज़ोरी", "mr": "अशक्तपणा" }, "e": "😮‍💨" },
+      { "k": "nasal_discharge", "n": { "en": "Nasal discharge", "hi": "नाक बहना", "mr": "नाकातून स्त्राव" }, "e": "🤧" },
+      { "k": "skin_lesions", "n": { "en": "Skin lesions", "hi": "त्वचा पर घाव", "mr": "त्वचेवर जखमा" }, "e": "🩹" },
+      { "k": "swollen_udder", "n": { "en": "Swollen udder", "hi": "थन सूजन", "mr": "कासे सुजले" }, "e": "🫃" },
+      { "k": "weight_loss", "n": { "en": "Weight loss", "hi": "वज़न कम", "mr": "वजन कमी" }, "e": "⚖️" }
+    ],
+    "goat": [
+      { "k": "fever", "n": { "en": "Fever", "hi": "बुखार", "mr": "ताप" }, "e": "🌡️" },
+      { "k": "not_eating", "n": { "en": "Not eating", "hi": "खाना नहीं खा रहा", "mr": "खात नाही" }, "e": "🍽️" },
+      { "k": "diarrhea", "n": { "en": "Diarrhea", "hi": "दस्त", "mr": "जुलाब" }, "e": "💩" },
+      { "k": "bloating", "n": { "en": "Bloating", "hi": "पेट फूलना", "mr": "पोट फुगणे" }, "e": "🎈" },
+      { "k": "cough", "n": { "en": "Coughing", "hi": "खांसी", "mr": "खोकला" }, "e": "😷" },
+      { "k": "weakness", "n": { "en": "Weakness", "hi": "कमज़ोरी", "mr": "अशक्तपणा" }, "e": "😮‍💨" },
+      { "k": "skin_lesions", "n": { "en": "Skin lesions", "hi": "त्वचा पर घाव", "mr": "त्वचेवर जखमा" }, "e": "🩹" },
+      { "k": "limping", "n": { "en": "Limping", "hi": "लंगड़ाना", "mr": "लंगडत चालणे" }, "e": "🦵" },
+      { "k": "eye_discharge", "n": { "en": "Eye discharge", "hi": "आंख से पानी", "mr": "डोळ्यातून स्त्राव" }, "e": "👁️" },
+      { "k": "nasal_discharge", "n": { "en": "Nasal discharge", "hi": "नाक बहना", "mr": "नाकातून स्त्राव" }, "e": "🤧" }
+    ],
+    "sheep": [
+      { "k": "fever", "n": { "en": "Fever", "hi": "बुखार", "mr": "ताप" }, "e": "🌡️" },
+      { "k": "not_eating", "n": { "en": "Not eating", "hi": "खाना नहीं खा रहा", "mr": "खात नाही" }, "e": "🍽️" },
+      { "k": "diarrhea", "n": { "en": "Diarrhea", "hi": "दस्त", "mr": "जुलाब" }, "e": "💩" },
+      { "k": "bloating", "n": { "en": "Bloating", "hi": "पेट फूलना", "mr": "पोट फुगणे" }, "e": "🎈" },
+      { "k": "limping", "n": { "en": "Limping", "hi": "लंगड़ाना", "mr": "लंगडत चालणे" }, "e": "🦵" },
+      { "k": "cough", "n": { "en": "Coughing", "hi": "खांसी", "mr": "खोकला" }, "e": "😷" },
+      { "k": "weakness", "n": { "en": "Weakness", "hi": "कमज़ोरी", "mr": "अशक्तपणा" }, "e": "😮‍💨" },
+      { "k": "wool_loss", "n": { "en": "Wool loss", "hi": "ऊन झड़ना", "mr": "लोकर गळणे" }, "e": "🧶" },
+      { "k": "eye_discharge", "n": { "en": "Eye discharge", "hi": "आंख से पानी", "mr": "डोळ्यातून स्त्राव" }, "e": "👁️" }
+    ],
+    "horse": [
+      { "k": "fever", "n": { "en": "Fever", "hi": "बुखार", "mr": "ताप" }, "e": "🌡️" },
+      { "k": "not_eating", "n": { "en": "Not eating", "hi": "खाना नहीं खा रहा", "mr": "खात नाही" }, "e": "🍽️" },
+      { "k": "limping", "n": { "en": "Limping", "hi": "लंगड़ाना", "mr": "लंगडत चालणे" }, "e": "🦵" },
+      { "k": "colic", "n": { "en": "Colic (belly pain)", "hi": "पेट दर्द", "mr": "पोटदुखी" }, "e": "😣" },
+      { "k": "cough", "n": { "en": "Coughing", "hi": "खांसी", "mr": "खोकला" }, "e": "😷" },
+      { "k": "nasal_discharge", "n": { "en": "Nasal discharge", "hi": "नाक बहना", "mr": "नाकातून स्त्राव" }, "e": "🤧" },
+      { "k": "sweating", "n": { "en": "Excessive sweating", "hi": "अधिक पसीना", "mr": "जास्त घाम" }, "e": "💧" },
+      { "k": "weakness", "n": { "en": "Weakness", "hi": "कमज़ोरी", "mr": "अशक्तपणा" }, "e": "😮‍💨" },
+      { "k": "hoof_problem", "n": { "en": "Hoof problem", "hi": "खुर समस्या", "mr": "खूर समस्या" }, "e": "🐴" }
+    ],
+    "dog": [
+      { "k": "vomiting", "n": { "en": "Vomiting", "hi": "उल्टी", "mr": "उलटी" }, "e": "🤮" },
+      { "k": "diarrhea", "n": { "en": "Diarrhea", "hi": "दस्त", "mr": "जुलाब" }, "e": "💩" },
+      { "k": "not_eating", "n": { "en": "Not eating", "hi": "खाना नहीं खा रहा", "mr": "खात नाही" }, "e": "🍽️" },
+      { "k": "lethargy", "n": { "en": "Lethargy", "hi": "सुस्ती", "mr": "सुस्तपणा" }, "e": "😴" },
+      { "k": "itching", "n": { "en": "Itching", "hi": "खुजली", "mr": "खाज" }, "e": "🐾" },
+      { "k": "fever", "n": { "en": "Fever", "hi": "बुखार", "mr": "ताप" }, "e": "🌡️" },
+      { "k": "limping", "n": { "en": "Limping", "hi": "लंगड़ाना", "mr": "लंगडत चालणे" }, "e": "🦵" },
+      { "k": "hair_loss", "n": { "en": "Hair loss", "hi": "बाल झड़ना", "mr": "केस गळणे" }, "e": "✂️" },
+      { "k": "ear_scratching", "n": { "en": "Ear scratching", "hi": "कान खुजलाना", "mr": "कान खाजवणे" }, "e": "👂" },
+      { "k": "excessive_thirst", "n": { "en": "Excessive thirst", "hi": "अधिक प्यास", "mr": "जास्त तहान" }, "e": "💧" },
+      { "k": "bad_breath", "n": { "en": "Bad breath", "hi": "मुँह से बदबू", "mr": "तोंडाचा वास" }, "e": "🦷" },
+      { "k": "coughing", "n": { "en": "Coughing", "hi": "खांसी", "mr": "खोकला" }, "e": "😷" },
+      { "k": "eye_discharge", "n": { "en": "Eye discharge", "hi": "आंख से पानी", "mr": "डोळ्यातून स्त्राव" }, "e": "👁️" }
+    ],
+    "cat": [
+      { "k": "vomiting", "n": { "en": "Vomiting", "hi": "उल्टी", "mr": "उलटी" }, "e": "🤮" },
+      { "k": "diarrhea", "n": { "en": "Diarrhea", "hi": "दस्त", "mr": "जुलाब" }, "e": "💩" },
+      { "k": "not_eating", "n": { "en": "Not eating", "hi": "खाना नहीं खा रहा", "mr": "खात नाही" }, "e": "🍽️" },
+      { "k": "lethargy", "n": { "en": "Lethargy", "hi": "सुस्ती", "mr": "सुस्तपणा" }, "e": "😴" },
+      { "k": "sneezing", "n": { "en": "Sneezing", "hi": "छींकना", "mr": "शिंकणे" }, "e": "🤧" },
+      { "k": "hair_loss", "n": { "en": "Hair loss", "hi": "बाल झड़ना", "mr": "केस गळणे" }, "e": "✂️" },
+      { "k": "hiding", "n": { "en": "Hiding", "hi": "छिपना", "mr": "लपणे" }, "e": "🙈" },
+      { "k": "itching", "n": { "en": "Itching", "hi": "खुजली", "mr": "खाज" }, "e": "🐾" },
+      { "k": "limping", "n": { "en": "Limping", "hi": "लंगड़ाना", "mr": "लंगडत चालणे" }, "e": "🦵" },
+      { "k": "weight_loss", "n": { "en": "Weight loss", "hi": "वज़न कम", "mr": "वजन कमी" }, "e": "⚖️" },
+      { "k": "eye_discharge", "n": { "en": "Eye discharge", "hi": "आंख से पानी", "mr": "डोळ्यातून स्त्राव" }, "e": "👁️" }
+    ],
+    "rabbit": [
+      { "k": "not_eating", "n": { "en": "Not eating", "hi": "खाना नहीं खा रहा", "mr": "खात नाही" }, "e": "🍽️" },
+      { "k": "lethargy", "n": { "en": "Lethargy", "hi": "सुस्ती", "mr": "सुस्तपणा" }, "e": "😴" },
+      { "k": "diarrhea", "n": { "en": "Diarrhea", "hi": "दस्त", "mr": "जुलाब" }, "e": "💩" },
+      { "k": "nose_discharge", "n": { "en": "Nose discharge", "hi": "नाक बहना", "mr": "नाकातून स्त्राव" }, "e": "🤧" },
+      { "k": "head_tilt", "n": { "en": "Head tilt", "hi": "सिर झुकाना", "mr": "डोके झुकलेले" }, "e": "↪️" },
+      { "k": "teeth_problem", "n": { "en": "Teeth problem", "hi": "दांत समस्या", "mr": "दात समस्या" }, "e": "🦷" },
+      { "k": "hair_loss", "n": { "en": "Hair loss", "hi": "बाल झड़ना", "mr": "केस गळणे" }, "e": "✂️" }
+    ],
+    "chicken": [
+      { "k": "not_laying", "n": { "en": "Not laying eggs", "hi": "अंडे नहीं दे रहा", "mr": "अंडी देत नाही" }, "e": "🥚" },
+      { "k": "ruffled_feathers", "n": { "en": "Ruffled feathers", "hi": "पंख खड़े", "mr": "पंख उभे" }, "e": "🪶" },
+      { "k": "sudden_death", "n": { "en": "Sudden deaths", "hi": "अचानक मौत", "mr": "अचानक मृत्यू" }, "e": "⚠️" },
+      { "k": "not_eating", "n": { "en": "Not eating", "hi": "खाना नहीं खा रहा", "mr": "खात नाही" }, "e": "🍽️" },
+      { "k": "diarrhea", "n": { "en": "Diarrhea", "hi": "दस्त", "mr": "जुलाब" }, "e": "💩" },
+      { "k": "coughing", "n": { "en": "Coughing", "hi": "खांसी", "mr": "खोकला" }, "e": "😷" },
+      { "k": "swollen_head", "n": { "en": "Swollen head", "hi": "सिर सूजन", "mr": "डोके सुजले" }, "e": "🤕" },
+      { "k": "lethargy", "n": { "en": "Lethargy", "hi": "सुस्ती", "mr": "सुस्तपणा" }, "e": "😴" },
+      { "k": "nasal_discharge", "n": { "en": "Nasal discharge", "hi": "नाक बहना", "mr": "नाकातून स्त्राव" }, "e": "🤧" },
+      { "k": "lameness", "n": { "en": "Lameness", "hi": "लंगड़ाना", "mr": "लंगडे" }, "e": "🦵" }
+    ],
+    "duck": [
+      { "k": "not_eating", "n": { "en": "Not eating", "hi": "खाना नहीं खा रहा", "mr": "खात नाही" }, "e": "🍽️" },
+      { "k": "diarrhea", "n": { "en": "Diarrhea", "hi": "दस्त", "mr": "जुलाब" }, "e": "💩" },
+      { "k": "lethargy", "n": { "en": "Lethargy", "hi": "सुस्ती", "mr": "सुस्तपणा" }, "e": "😴" },
+      { "k": "ruffled_feathers", "n": { "en": "Ruffled feathers", "hi": "पंख खड़े", "mr": "पंख उभे" }, "e": "🪶" },
+      { "k": "nasal_discharge", "n": { "en": "Nasal discharge", "hi": "नाक बहना", "mr": "नाकातून स्त्राव" }, "e": "🤧" },
+      { "k": "lameness", "n": { "en": "Lameness", "hi": "लंगड़ाना", "mr": "लंगडे" }, "e": "🦵" },
+      { "k": "eye_discharge", "n": { "en": "Eye discharge", "hi": "आंख से पानी", "mr": "डोळ्यातून स्त्राव" }, "e": "👁️" }
+    ]
+  }
+}

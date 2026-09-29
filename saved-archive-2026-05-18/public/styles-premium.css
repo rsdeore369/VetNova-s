@@ -1,0 +1,203 @@
+/* Care Bridge — premium layer (v20260626) */
+
+:root {
+  --bg: #d8e4e2;
+  --brand: #0d5c54;
+  --brand-2: #1a8f82;
+  --brand-dark: #062f2b;
+  --accent: #d4b35c;
+  --accent-2: #f0e4c4;
+  --shadow: 0 14px 40px rgba(6, 47, 43, 0.1);
+  --shadow-lg: 0 28px 64px rgba(6, 47, 43, 0.14);
+  --font-ui: "Plus Jakarta Sans", var(--font);
+}
+
+.viewport {
+  background: linear-gradient(165deg, #fcfefd 0%, #f0f6f4 42%, #e8f0ed 100%);
+  box-shadow: var(--shadow-lg), 0 0 0 1px rgba(6, 47, 43, 0.06) inset;
+}
+
+.topbar {
+  background: rgba(252, 254, 253, 0.88);
+  border-bottom-color: rgba(13, 92, 84, 0.1);
+}
+
+.dash-topbar-premium {
+  background: linear-gradient(135deg, var(--brand-dark) 0%, #0a4a44 55%, #0d5c54 100%);
+  border-bottom: none;
+  color: #fff;
+  padding: 18px 16px 20px;
+  border-radius: 0 0 22px 22px;
+  box-shadow: 0 12px 32px rgba(6, 47, 43, 0.22);
+}
+.dash-topbar-premium .dash-welcome-label {
+  color: rgba(255, 255, 255, 0.72);
+}
+.dash-topbar-premium .dash-welcome-name {
+  color: #fff;
+  font-size: 1.42rem;
+}
+.dash-topbar-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 12px;
+}
+.dash-topbar-badge {
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  font-size: 18px;
+  color: var(--accent);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(212, 179, 92, 0.45);
+  box-shadow: 0 0 20px rgba(212, 179, 92, 0.25);
+}
+.dash-intro {
+  font-size: 14px;
+  line-height: 1.55;
+  margin: 0 0 4px;
+}
+
+.dash-cta-card {
+  background: linear-gradient(135deg, #0a4a44 0%, #0d5c54 48%, #1a8f82 100%);
+  border: 1px solid rgba(212, 179, 92, 0.35);
+  box-shadow: 0 16px 40px rgba(6, 47, 43, 0.28), 0 0 0 1px rgba(255, 255, 255, 0.08) inset;
+  position: relative;
+  overflow: hidden;
+}
+.dash-cta-card::after {
+  content: "";
+  position: absolute;
+  top: -40%;
+  right: -20%;
+  width: 55%;
+  height: 140%;
+  background: radial-gradient(circle, rgba(212, 179, 92, 0.22) 0%, transparent 68%);
+  pointer-events: none;
+}
+.dash-cta-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 20px 48px rgba(6, 47, 43, 0.32);
+}
+
+.dash-tile {
+  background: linear-gradient(180deg, #fff 0%, #f8fbfa 100%);
+  border-color: rgba(13, 92, 84, 0.12);
+}
+.dash-tile .dt-ico {
+  background: linear-gradient(155deg, #e8f6f3 0%, #fff 55%);
+  border-color: rgba(13, 92, 84, 0.12);
+  box-shadow: 0 4px 14px rgba(6, 47, 43, 0.06);
+}
+
+.card {
+  border-color: rgba(13, 92, 84, 0.1);
+  box-shadow: 0 4px 18px rgba(6, 47, 43, 0.05), var(--ring);
+}
+
+.btn-primary {
+  background: linear-gradient(180deg, #1fa896 0%, var(--brand) 55%, var(--brand-dark) 100%);
+  box-shadow: 0 8px 22px rgba(6, 47, 43, 0.22), 0 0 0 1px rgba(255, 255, 255, 0.15) inset;
+  font-family: var(--font-ui);
+  font-weight: 700;
+}
+
+.splash-card {
+  border: 1px solid rgba(13, 92, 84, 0.14);
+  box-shadow: var(--shadow-lg), 0 0 60px rgba(212, 179, 92, 0.12);
+}
+.splash-brand {
+  background: linear-gradient(135deg, var(--brand-dark), var(--brand-2));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.lang-tile {
+  border-radius: var(--radius);
+  border: 1.5px solid var(--line);
+  transition: border-color var(--t-med), box-shadow var(--t-med), transform var(--t-fast);
+}
+.lang-tile.on {
+  border-color: var(--brand);
+  box-shadow: 0 0 0 3px rgba(13, 92, 84, 0.12), var(--shadow);
+  background: linear-gradient(180deg, #fff 0%, var(--brand-soft) 100%);
+}
+.lang-tile:hover {
+  border-color: rgba(13, 92, 84, 0.35);
+}
+
+.bottomnav {
+  background: rgba(252, 254, 253, 0.92);
+  backdrop-filter: blur(18px) saturate(1.4);
+  border-top: 1px solid rgba(13, 92, 84, 0.1);
+  box-shadow: 0 -8px 28px rgba(6, 47, 43, 0.06);
+}
+.bottomnav button.active {
+  color: var(--brand-dark);
+  background: linear-gradient(180deg, rgba(13, 92, 84, 0.14) 0%, rgba(13, 92, 84, 0.06) 100%);
+}
+
+.cb-chat-fab {
+  background: linear-gradient(145deg, #1fa896 0%, var(--brand-dark) 100%);
+  box-shadow: 0 10px 28px rgba(6, 47, 43, 0.35), 0 0 0 2px rgba(212, 179, 92, 0.35);
+}
+.cb-chat-panel {
+  border: 1px solid rgba(13, 92, 84, 0.14);
+  box-shadow: var(--shadow-lg), 0 0 40px rgba(6, 47, 43, 0.12);
+}
+.cb-chat-head {
+  background: linear-gradient(135deg, rgba(6, 47, 43, 0.06) 0%, rgba(26, 143, 130, 0.08) 100%);
+}
+.cb-msg-assistant {
+  background: linear-gradient(180deg, #fff 0%, #f6faf9 100%);
+  border-color: rgba(13, 92, 84, 0.1);
+}
+.cb-msg-user {
+  background: linear-gradient(135deg, #dff7f3 0%, #c8efe8 100%);
+  border-color: rgba(13, 92, 84, 0.18);
+}
+
+.cb-chat-quick {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 8px 10px 0;
+  border-top: 1px solid var(--line-soft);
+  background: rgba(255, 255, 255, 0.6);
+}
+.cb-quick-chip {
+  border: 1px solid rgba(13, 92, 84, 0.2);
+  background: #fff;
+  color: var(--brand-dark);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-family: var(--font-ui);
+  transition: background var(--t-fast), border-color var(--t-fast);
+}
+.cb-quick-chip:hover {
+  background: var(--brand-soft);
+  border-color: var(--brand);
+}
+.cb-quick-primary {
+  background: linear-gradient(180deg, var(--brand-2), var(--brand));
+  color: #fff;
+  border-color: transparent;
+}
+.cb-quick-primary:hover {
+  color: #fff;
+  filter: brightness(1.05);
+}
+
+.input:focus,
+.cb-chat-input:focus {
+  border-color: var(--brand);
+  box-shadow: 0 0 0 4px rgba(13, 92, 84, 0.12);
+}
